@@ -7,8 +7,8 @@ public class Main {
         RockPaperScissors rps = new RockPaperScissors();
 
         System.out.println(rps.rps("rock", "rock"));
-        System.out.println(rps.rps("paper", "rock"));
-        System.out.println(rps.rps("rock", "paper"));
+        System.out.println(rps.rps("scissors", "paper"));
+        System.out.println(rps.rps("scissors", "rock"));
 
     }
 }
