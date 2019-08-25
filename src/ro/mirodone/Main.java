@@ -6,9 +6,16 @@ public class Main {
 
         RockPaperScissors rps = new RockPaperScissors();
 
-        System.out.println(rps.rps("rock", "rock"));
-        System.out.println(rps.rps("scissors", "paper"));
-        System.out.println(rps.rps("scissors", "rock"));
+     //   System.out.println(rps.rps("rock", "rock"));
+      //  System.out.println(rps.rps("scissors", "paper"));
+      //  System.out.println(rps.rps("scissors", "rock"));
+
+        CleverRPS clever = new CleverRPS();
+
+        System.out.println(clever.rps("rock", "rock"));
+        System.out.println(clever.rps("scissors", "paper"));
+        System.out.println(clever.rps("scissors", "rock"));
+
 
     }
 }
